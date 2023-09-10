@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-react-todo"
+version = "0.1.0"
+description = ""
+authors = ["Zihad <zihadmahiuddin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.5"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
